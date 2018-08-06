@@ -1,0 +1,107 @@
+.essay01{
+    width: 100% ;
+    height: 500px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    border-bottom: 5px solid lightgray ;
+}
+.essay01-top{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-flow: row;
+}
+.essay01-top-head{
+    width: 50px;
+    height: 50px;
+    background-image: url("../../../img/头像.png");
+}
+.essay01-top-head02{
+    width: 50px;
+    height: 50px;
+    background-image: url("../../../img/头像2.jpg");
+}
+.essay01-top-center{
+    flex: 1;
+    height: 50px;
+}
+.essay01-top-center01{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    /*justify-items: start;*/
+}
+.essay01-top-center0101{
+    height: 22px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.essay01-top-center0102{
+    width: 35px;
+    height: 22px;
+    margin-left: 5px;
+    /*background-image: url("../../../img/会员等级.png");*/
+    background-image: url("../../../img/等级20.png");
+}
+.essay01-top-center0103{
+    width: 30px;
+    height: 20px;
+    font-size: 14px;
+    color: #8a8a8a;
+    margin-left: 5px;
+}
+.essay01-top-center02{
+    width: 98%;
+    height: 20px;
+}
+.essay01-top-right{
+    width: 30px;
+    height: 30px;
+}
+.essay01-middle-top{
+    width: 100%;
+    flex: 1;
+    color: darkslateblue;
+}
+.essay01-middle-bottom{
+    width: 100%;
+    height: 200px;
+    background-image: url("../../../img/许愿.jpg");
+    background-position: 0px 310px;
+}
+.essay01-middle-bottom02{
+    width: 100%;
+    height: 200px;
+    background-image: url("../../../img/热门2.jpg");
+}
+.essay01-chat{
+    width: 100%;
+    flex: 1;
+}
+.essay01-bottom{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid silver;
+}
+.essay01-bottom-01{
+    width: 30%;
+    height: 23px;
+    border-right: 1px solid silver;
+}
+.essay01-bottom-02{
+    width: 30%;
+    height: 23px;
+}
+.news-bottom-center0102 img{
+    width: 20px;
+    height: 18px;
+    background-size: cover;
+    background-position: center;
+    margin: 2px 0px 0px 2px;
+
+}

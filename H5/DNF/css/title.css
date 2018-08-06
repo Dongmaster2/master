@@ -1,0 +1,98 @@
+.title{
+    width: 100%;
+    height: 45px;
+    background-image: url("../../../img/bg.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.title label{
+    width: 32px;
+    height:28px;
+    background-image: url("../../../img/更多(2).png");
+    background-size: cover;
+    background-position: center;
+    margin-left: 6px;
+    cursor: pointer;
+}
+.select{
+    /*width: 285px;*/
+    flex: 1px;
+    height: 33px;
+    margin: 0 5px 0 5px;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    /*flex-flow: row;*/
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*overflow: hidden;*/
+}
+
+.search{
+    width:32px ;
+    height: 32px;
+    margin-right: 6px;
+    background-image: url("../../../img/搜索.png");
+    background-position: center;
+    background-size: cover;
+}
+.search01{
+    width: 360px;
+    height: 50px;
+    position: absolute;
+    left: 5px;
+    top: 65px;
+    display: none;
+    background-color: #FFB6C1;
+    opacity: 0.8;
+}
+.search0101{
+    width: 350px;
+    height: 40px;
+}
+.select div{
+    color: white;
+    font-size: 19px;
+    line-height:32px;
+    text-align: center;
+    float: left;
+}
+.select01{
+    width: 70px;
+    height: 32px;
+}
+.select02{
+    width: 70px;
+    height: 32px;
+}
+.select03{
+    width: 70px;
+    height: 32px;
+}
+.select04{
+    width: 70px;
+    height: 32px;
+}
+.select05{
+    width: 70px;
+    height: 32px;
+}
+.hua{
+    width: 360px;
+    /*flex: 1px;*/
+    height: 32px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*float: left;*/
+}
+::-webkit-scrollbar{
+    display:none;
+}
+.essay-title{
+    width: 100%;
+    height: 50px;
+    flex-flow: row;
+    justify-content: space-between;
+}
+

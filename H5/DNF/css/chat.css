@@ -1,0 +1,16 @@
+.chat01{
+    width: 100%;
+    flex: 1px;
+}
+.chat0101{
+    width: 96%;
+    height:100%;
+    overflow-y: scroll;
+    background-color: #ADD8E6;
+}
+.chat0102{
+    width: 100%;
+    height: 2000px;
+    overflow-y: scroll;
+    background-color:darkmagenta;
+}

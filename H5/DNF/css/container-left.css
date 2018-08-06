@@ -1,0 +1,157 @@
+.container-left01{
+    width: 96%;
+    height: 100%;
+    margin-left: 5px;
+    display: flex;
+    flex-flow: column;
+}
+.container-left01-taskbar{
+    width: 100%;
+    height: 21px;
+}
+.container-left0101{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.container-left0101-picture{
+    width: 30px;
+    height: 30px;
+    background-image: url("../../../img/编辑.png");
+}
+.container-left0102{
+    width: 100%;
+    height: 70px;
+}
+.container-left0102-picture{
+    width: 60px;
+    height: 60px;
+    background-image: url("../../../img/头像3.jpg");
+    border-radius: 50%;
+}
+.container-left0103{
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+.container-left0103-word{
+    width: 70%;
+    height: 25px;
+    color:white;
+}
+.container-left0103-picture{
+    width: 40px;
+    height: 25px;
+    background-image: url("../../../img/等级19.png");
+    margin-left: -55px;
+}
+
+.container-left0104{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.container-left0104-box{
+    width:33%;
+    height: 100%;
+    flex-flow: column;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.container-left0104-box-word{
+    width: 50px;
+    height: 25px;
+    color:whitesmoke;
+    /*margin-left: 15px;*/
+}
+.container-left0104-box-word01{
+    width: 75px;
+    height: 20px;
+    color: silver;
+    font-size: 13px;
+    margin-left: 8px;
+}
+.container-left0105{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.container-left0105-picture{
+    width: 25px;
+    height: 25px;
+}
+.container-left0105-word{
+    flex: 1;
+    height:35px;
+    color: white;
+    line-height: 35px;
+    margin-left: 10px;
+}
+.container-left0107{
+    width: 100%;
+    height: 40px;
+    flex: 1;
+    display: flex;
+}
+.container-left0108{
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+.container-left0108-hr{
+    height:30px ;
+    flex: 1;
+    background-image: url("../../../img/线.svg");
+    background-size: 50%;
+}
+.container-left0108-word{
+    height: 30px;
+    width: auto;
+    color: silver;
+    font-size: 15px;
+    line-height: 30px;
+    margin: 0 3px 0 3px ;
+}
+.container-left0109{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-flow: row;
+    justify-content:center;
+    align-items: center;
+    background-color:dimgrey;
+    border-radius: 5px;
+}
+.container-left0109-left{
+    flex: 1;
+    height: 50px;
+    display: flex;
+    flex-flow: column;
+    margin-left: 18px;
+}
+.container-left0109-left01{
+    flex: 1;
+    height: 60%;
+    font-size: 18px;
+    color:white;
+
+}
+.container-left0109-left02{
+    flex: 1;
+    height: 40%;
+    font-size: 12px;
+    color: silver;
+}
+.container-left0109 label{
+    width: 25px;
+    height: 25px;
+    background-image: url("../../../img/切换.png");
+    background-position: -12px;
+    margin-right: 20px;
+    background-size: cover;
+}

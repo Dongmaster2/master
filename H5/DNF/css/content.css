@@ -1,0 +1,375 @@
+.content{
+    width: 100%;
+    flex: 1;
+}
+.content01 {
+    width: 95%;
+    height: 99.5%;
+    overflow-y: scroll;
+}
+.content0101{
+    width: 100%;
+    height: 1200px;
+}
+.top{
+    width: 100%;
+    height: 200px;
+    background-image: url(../../../img/picture2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.middle{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 0px 0px 0px;
+}
+.middle01{
+    height: 65px;
+    flex: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.middle01-left{
+    height: 60px;
+    width: 60px;
+    background-image: url("../../../img/middle02.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 2px;
+}
+.middle01-right{
+    height: 60px;
+    flex: 1px;
+}
+.topword{
+    width: 100%;
+    height: 50%;
+    line-height:30px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.bottomword{
+    width: 100%;
+    height: 50%;
+    font-size: 10px;
+    margin-left: 10px;
+    color:darkgray;
+}
+.middle02{
+    width: 100px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.lower{
+    width: 100%;
+    height:316px;
+    /*overflow-y: scroll;*/
+}
+.container2{
+    width:92%;
+    height: 600px;
+    margin: 0px 5px 0px 13px;
+}
+.news{
+    width: 100%;
+    height: 120px;
+}
+.essay{
+    width: 100%;
+    height:200px;
+    display: flex;
+    flex-flow: column nowrap;
+    border-bottom: 5px solid lightgray;
+}
+
+.essay-top{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    margin-top: 2px;
+    line-height: 30px;
+}
+.essay-logo{
+    width: 40px;
+    height: 50px;
+    background-image: url("../../../img/笔3.png");
+    background-position: center;
+    background-size: cover;
+    margin-top: -6px;
+}
+.essay-logo2{
+    width: 20px;
+    height: 16px;
+    background-color:darkorange;
+    background-image: url("../../../img/更多3.png");
+    margin: 0px 10px 0px 5px;
+}
+.essay-word{
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.essay-word3{
+    width: 45px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 8px;
+    line-height: 40px;
+    background-color:lightgray;
+    border-radius: 10px;
+}
+.essay-word3:hover{
+    background-color:grey;
+}
+.essay-word3 a{
+    text-decoration:none;
+    color: #313131;
+    margin-left: 2px;
+}
+.essay-word3 a:hover{
+    color: whitesmoke;
+}
+.essay-center{
+    width: 100%;
+    height: 100px;
+    background-image: url("../../../img/essayhot.jpg");
+}
+.news-top{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    margin-top: 2px;
+    border-top: 1px solid darkgrey;
+}
+.logo{
+    width: 40px;
+    height: 18px;
+    background-image: url("../../../img/置顶.png");
+    background-position: center;
+    background-size: cover;
+    margin-top: 2px;
+}
+.titleword{
+    line-height: 19px;
+}
+.news-middle{
+    width: 342px;
+    height:70px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-top: 2px;
+}
+.picture-box{
+    width: 510px;
+    height:68px;
+    /*float: left;*/
+}
+.news-picture{
+    width: 100px;
+    height: 68px;
+    float: left;
+}
+#picture1{
+    background-image: url("../../../img/picture1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#picture2{
+    background-image: url("../../../img/picture2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#picture3{
+    background-image: url("../../../img/picture3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#picture4{
+    background-image: url("../../../img/picture4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#picture5{
+    background-image: url("../../../img/picture5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.essay-bottom{
+    width: 100%;
+    flex: 1;
+    display: flex;
+}
+.essay-bottom-left{
+    width: 50%;
+    flex: 1;
+}
+.essay-bottom-left-top{
+    width:100%;
+    height: 36px;
+    display: flex;
+}
+.essay-bottom-left-bottom{
+    width:100% ;
+    flex: 1;
+    display: flex;
+}
+.essay-bottom-right{
+    width: 50%;
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.essay-bottom-right-top{
+    width:100%;
+    height: 30px;
+    display: flex;
+}
+.essay-bottom-right-bottom{
+    width:100% ;
+    flex: 1;
+    display: flex;
+}
+.news-bottom{
+    width: 100%;
+    height: 23px;
+    display: flex;
+}
+.news-bottom-left{
+    width: 50px;
+    height: 21px;
+    margin-left: 2px;
+    color:darkgray;
+    font-size: 10px;
+    line-height: 19px;
+}
+.news-bottom-center{
+    flex: 1px;
+    height: 21px;
+    margin: 0px 2px 0px 4px;
+    font-size: 10px;
+    line-height: 19px;
+    color:darkgray;
+    display:flex;
+    justify-content: flex-end;
+}
+.news-bottom-center0102{
+    width: 18px;
+    height: 18px;
+    background-image: url("../../../img/分享.png");
+}
+.news-bottom-center0103{
+    width: 18px;
+    height: 18px;
+    background-image: url("../../../img/评论.png");
+}
+.news-bottom-center0102{
+    width: 18px;
+    height: 18px;
+    background-image: url("../../../img/心(2).png");
+}
+.news-bottom-center02{
+    width: 60px;
+    height: 21px;
+    margin-left: 2px;
+    color:darkgray;
+    font-size: 10px;
+    line-height: 19px;
+}
+.news-bottom-right{
+    width:55px;
+    height: 21px;
+    margin-right: 2px;
+    display: flex;
+}
+.news-bottom img{
+    width: 20px;
+    height: 18px;
+    background-size: cover;
+    background-position: center;
+    margin: 2px 0px 0px 2px;
+}
+.news02{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    border-top: 1px solid darkgrey;
+}
+.news-right{
+    width: 150px;
+    height: 100px;
+    margin-top: 10px;
+}
+.news-left{
+    flex: 1px;
+    height: 90px;
+    margin: 10px 0px 5px 0px;
+}
+.news-title{
+    height: 60px;
+    flex: 1px;
+    margin-top: 5px;
+}
+.news-bottom-right02{
+    width:55px;
+    height: 21px;
+    margin-right: 2px;
+    display: flex;
+}
+.img{
+    width: 100px;
+    height: 78px;
+    background-image: url("../../../img/手法.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: 17px;
+}
+#picture01{
+    background-image: url("../../../img/史诗1.jpeg");
+    background-size: cover;
+    background-position: center;
+}#picture02{
+     background-image: url("../../../img/史诗2.jpeg");
+     background-size: cover;
+     background-position: center;
+ }
+#picture03{
+      background-image: url("../../../img/史诗3.jpeg");
+      background-size: cover;
+      background-position: center;
+}
+#picture04{
+       background-image: url("../../../img/史诗4.jpeg");
+       background-size: cover;
+       background-position: center;
+}
+#picture05{
+        background-image: url("../../../img/史诗5.jpeg");
+        background-size: cover;
+        background-position: center;
+}
+.img02{
+    width: 100px;
+    height: 78px;
+    background-image: url("../../../img/搬砖.png");
+    background-size: contain;
+    background-position: center;
+    margin-top: 17px;
+    background-repeat: no-repeat;
+}
+.img03{
+    width: 100px;
+    height: 78px;
+    background-image: url("../../../img/女子不如男？.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 17px;
+}
