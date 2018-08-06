@@ -1,0 +1,29 @@
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color:	#DCDCDC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-bottom{
+    width: 60px;
+    height: 45px;
+    margin: 0px 5px 0px 5px;
+}
+.menu-bottom-top{
+    width:45px;
+    height: 25px;
+    margin: 2px 2px 2px 7px ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.menu-bottom-bottom{
+    width: 58px;
+    height: 15px;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: #8a8a8a;
+}

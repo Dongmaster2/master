@@ -1,0 +1,40 @@
+.container{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.container-taskbar{
+    width: 100%;
+    height: 22px;
+    background-image: url("../../../img/背景1.png");
+}
+.container02{
+    width:100%;
+    flex: 1px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.container0201{
+    width: 100%;
+    height: 880px;
+    background-color: white;
+}
+.container section{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    background-image: url("../../../img/剑魂.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #330033;
+    left: -300px;
+    transition: all 0.35s ease-in-out;
+}
+#add:checked~section{transform: translateX(300px);}
+#add{
+    display: none;
+}
